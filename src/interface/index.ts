@@ -7,8 +7,8 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 export interface SectionProps {
     className: HTMLDivElement,
     id: string,
-    crosses: string,
+    crosses: boolean,
     crossesOffSet: string,
     children: React.ReactNode
-
+    customPadding: string
 }

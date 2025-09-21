@@ -43,3 +43,9 @@ export { default as twitter } from "./twitter.svg";
 
 export { default as yourlogo } from "./yourlogo.png";
 export { default as background } from "./background.jpg";
+
+export { default as SectionSvg } from "./svg/SectionSvg";
+
+
+
+
