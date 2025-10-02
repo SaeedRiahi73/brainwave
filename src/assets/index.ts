@@ -17,6 +17,7 @@ export { default as framer } from "./framer.svg";
 export { default as homeSmile } from "./homeSmile.svg";
 export { default as instagram } from "./instagram.svg";
 
+export { default as notification1 } from "./notification/image-1.png";
 export { default as notification2 } from "./notification2.svg";
 export { default as notification3 } from "./notification3.svg";
 export { default as notification4 } from "./notification4.svg";
@@ -44,7 +45,14 @@ export { default as twitter } from "./twitter.svg";
 export { default as yourlogo } from "./yourlogo.png";
 export { default as background } from "./background.jpg";
 
-export { default as SectionSvg } from "./svg/SectionSvg";
+export { default as curve } from "./hero/curve.png";
+export { default as robot } from "./hero/robot.jpg";
+export { default as heroBackground } from "./hero/hero-background.jpg";
+
+export { default as loading } from "./loading.png";
+
+
+
 
 
 

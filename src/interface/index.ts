@@ -1,3 +1,5 @@
+import type { RefObject } from "react";
+
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     asChild?: boolean,
     isWhite?: boolean,
@@ -5,10 +7,23 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 }
 
 export interface SectionProps {
-    className: HTMLDivElement,
-    id: string,
-    crosses: boolean,
-    crossesOffSet: string,
-    children: React.ReactNode
-    customPadding: string
+    className?: string,
+    id?: string,
+    crosses?: boolean,
+    crossesOffSet?: string,
+    children?: React.ReactNode
+    customPadding?: boolean
+}
+
+export interface BackgroundCirclesProps {
+    parallaxRef?: RefObject<HTMLDivElement>;
+};
+
+export interface GeneratingProps {
+    className?: string
+}
+
+export interface NotificationProps {
+    className: string,
+    title: string
 }

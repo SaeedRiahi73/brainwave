@@ -1,5 +1,5 @@
 import type { SectionProps } from "../../interface";
-import { SectionSvg } from "../../assets";
+import SectionSvg from "../../assets/svg/SectionSvg";
 
 const Section: React.FC<SectionProps> = ({
   children,
@@ -25,7 +25,8 @@ const Section: React.FC<SectionProps> = ({
           <div
             className={`hidden absolute top-0 left-7.5 right-7.5 h-0.25 bg-stroke-1 ${crossesOffSet} pointer-events-none lg:block xl:left-10 right-10`}
           />
-          <SectionSvg crossesOffset={crossesOffSet} />
+
+          <SectionSvg crossesOffset={crossesOffSet!} />
         </>
       )}
     </div>

@@ -13,7 +13,7 @@ const Header: React.FC = () => {
 
   const toggleNavigation = () => {
     setOpenNavigation((pre) => !pre);
-    if (openNavigation) scrollLock.disablePageScroll();
+    if (!openNavigation) scrollLock.disablePageScroll();
     else scrollLock.enablePageScroll();
   };
 
