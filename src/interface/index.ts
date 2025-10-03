@@ -31,3 +31,8 @@ export interface NotificationProps {
 export interface CompanyLogosProps {
     className: string
 }
+
+export interface HeadingProps {
+    className: string,
+    title: string
+}
