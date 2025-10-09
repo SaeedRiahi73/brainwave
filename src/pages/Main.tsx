@@ -1,4 +1,5 @@
 import Benefits from "../components/benefits/Benefits";
+import Collaboration from "../components/collaboration/Collaboration";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
 
@@ -9,6 +10,7 @@ const Main: React.FC = () => {
         <Header />
         <Hero />
         <Benefits />
+        <Collaboration />
       </div>
     </>
   );

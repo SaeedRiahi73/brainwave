@@ -50,6 +50,12 @@ export { default as robot } from "./hero/robot.jpg";
 export { default as heroBackground } from "./hero/hero-background.jpg";
 
 export { default as loading } from "./loading.png";
+export { default as check } from "./check.svg";
+export { default as brainwaveSymbol } from "./brainwave-symbol.svg";
+
+export { default as curve1 } from "./collaboration/curve-1.svg";
+export { default as curve2 } from "./collaboration/curve-2.svg";
+
 
 
 
