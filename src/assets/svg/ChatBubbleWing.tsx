@@ -1,4 +1,9 @@
-const ChatBubbleWing = ({ className, pathClassName }) => {
+import type { ChatBubbleWingProps } from "../../interface";
+
+const ChatBubbleWing: React.FC<ChatBubbleWingProps> = ({
+  className,
+  pathClassName,
+}) => {
   return (
     <svg
       className={`${className || ""}`}

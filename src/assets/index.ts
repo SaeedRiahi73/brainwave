@@ -56,6 +56,15 @@ export { default as brainwaveSymbol } from "./brainwave-symbol.svg";
 export { default as curve1 } from "./collaboration/curve-1.svg";
 export { default as curve2 } from "./collaboration/curve-2.svg";
 
+export { default as service1 } from "./services/service-1.png";
+export { default as service2 } from "./services/service-2.png";
+export { default as service3 } from "./services/service-3.png";
+
+export { default as brainwaveWhiteSymbol } from "./brainwave-symbol-white.svg";
+export { default as gradient } from "./gradient.png";
+export { default as play } from "./play.svg";
+
+
 
 
 
