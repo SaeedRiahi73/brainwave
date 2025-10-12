@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import { BackgroundCircles, BottomLine, Gradient } from "../design/Hero";
 import { heroIcons } from "../constants";
 import { ScrollParallax } from "react-just-parallax";
-import Generating from "./Generating";
+import Generating from "../share/Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 

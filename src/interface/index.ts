@@ -33,6 +33,12 @@ export interface CompanyLogosProps {
 }
 
 export interface HeadingProps {
-    className: string,
-    title: string
+    className?: string,
+    title: string,
+    text?: string
+}
+
+export interface ChatBubbleWingProps {
+    className?: string,
+    pathClassName?: string
 }

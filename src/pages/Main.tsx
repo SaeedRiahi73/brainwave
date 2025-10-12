@@ -2,6 +2,7 @@ import Benefits from "../components/benefits/Benefits";
 import Collaboration from "../components/collaboration/Collaboration";
 import Header from "../components/header/Header";
 import Hero from "../components/hero/Hero";
+import Services from "../components/services/Services";
 
 const Main: React.FC = () => {
   return (
@@ -11,6 +12,7 @@ const Main: React.FC = () => {
         <Hero />
         <Benefits />
         <Collaboration />
+        <Services />
       </div>
     </>
   );
