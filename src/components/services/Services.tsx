@@ -1,5 +1,5 @@
 import { check, service1, service2, service3 } from "../../assets";
-import Heading from "../benefits/Heading";
+import Heading from "../share/Heading";
 import { brainwaveServices, brainwaveServicesIcons } from "../constants";
 import {
   Gradient,

@@ -3,7 +3,7 @@ import ClipPath from "../../assets/svg/ClipPath";
 import { benefits } from "../constants";
 import { GradientLight } from "../design/Benefits";
 import Section from "../ui/Section";
-import Heading from "./Heading";
+import Heading from "../share/Heading";
 
 const Benefits: React.FC = () => {
   return (

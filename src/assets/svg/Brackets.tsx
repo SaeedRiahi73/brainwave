@@ -1,5 +1,7 @@
-const brackets = (position) =>
-  position === "left" ? (
+import type { BracketsProps } from "../../interface";
+
+const Brackets: React.FC<BracketsProps> = ({ position }) => {
+  return position === "left" ? (
     <svg
       width="5"
       height="14"
@@ -41,5 +43,6 @@ const brackets = (position) =>
       </defs>
     </svg>
   );
+};
 
-export default brackets;
+export default Brackets;
