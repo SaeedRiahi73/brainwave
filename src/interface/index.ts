@@ -1,4 +1,5 @@
 import type { RefObject } from "react";
+import type { PositionType } from "../types";
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     asChild?: boolean,
@@ -35,10 +36,20 @@ export interface CompanyLogosProps {
 export interface HeadingProps {
     className?: string,
     title: string,
-    text?: string
+    text?: string,
+    tag?: string
 }
 
 export interface ChatBubbleWingProps {
     className?: string,
     pathClassName?: string
+}
+
+export interface TaglineProps {
+    children: React.ReactNode,
+    className?: string
+}
+
+export interface BracketsProps {
+    position: PositionType;
 }

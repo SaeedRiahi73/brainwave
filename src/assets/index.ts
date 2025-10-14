@@ -64,6 +64,10 @@ export { default as brainwaveWhiteSymbol } from "./brainwave-symbol-white.svg";
 export { default as gradient } from "./gradient.png";
 export { default as play } from "./play.svg";
 
+export { default as smallSphere } from "./4-small.png";
+export { default as stars } from "./pricing/stars.svg";
+export { default as lines } from "./pricing/lines.svg";
+
 
 
 
