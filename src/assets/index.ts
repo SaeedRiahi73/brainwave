@@ -51,6 +51,7 @@ export { default as heroBackground } from "./hero/hero-background.jpg";
 
 export { default as loading } from "./loading.png";
 export { default as check } from "./check.svg";
+export { default as check2 } from "./check-02.svg";
 export { default as brainwaveSymbol } from "./brainwave-symbol.svg";
 
 export { default as curve1 } from "./collaboration/curve-1.svg";
@@ -67,6 +68,10 @@ export { default as play } from "./play.svg";
 export { default as smallSphere } from "./4-small.png";
 export { default as stars } from "./pricing/stars.svg";
 export { default as lines } from "./pricing/lines.svg";
+
+export { default as grid } from "./grid.png";
+export { default as loading1 } from "./loading-01.svg";
+
 
 
 
